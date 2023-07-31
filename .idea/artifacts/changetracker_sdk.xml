@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="changetracker-sdk">
+    <output-path>$PROJECT_DIR$/out/artifacts/changetracker_sdk</output-path>
+    <root id="archive" name="changetracker-sdk.jar">
+      <element id="archive" name="changetracker_sdk.jar">
+        <element id="module-output" name="changetracker-sdk" />
+      </element>
+    </root>
+  </artifact>
+</component>

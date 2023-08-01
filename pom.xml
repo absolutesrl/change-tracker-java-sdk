@@ -7,10 +7,12 @@
     <artifactId>changetracker-sdk</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1</version>
-    <name>changetracker-sdk</name>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Absolute ChangeTracker SDK</description>
     <url>https://changetracker.it/</url>
     <scm>
-        <connection>https://github.com/absolutesrl/change-tracker-java-sdk.git</connection>
+        <connection>scm:git:git://github.com/absolutesrl/change-tracker-java-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com:absolutesrl/change-tracker-java-sdk.git</developerConnection>
         <url>https://github.com/absolutesrl/change-tracker-java-sdk</url>
     </scm>
     <licenses>
@@ -21,7 +23,9 @@
     </licenses>
     <developers>
         <developer>
-            <organization>Absolute srl</organization>
+            <name>Tommaso Vannoni</name>
+            <email>tvannoni@absolute.it</email>
+            <organization>Absolute</organization>
             <url>https://www.absolute.it</url>
         </developer>
     </developers>

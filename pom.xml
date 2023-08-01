@@ -125,6 +125,9 @@
                         <version>1.7.0</version>
                         <configuration>
                             <jreleaser>
+                                <project>
+                                    <copyright>Absolute 2023</copyright>
+                                </project>
                                 <signing>
                                     <active>ALWAYS</active>
                                     <armored>true</armored>

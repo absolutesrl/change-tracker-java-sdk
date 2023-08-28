@@ -23,6 +23,7 @@
     </licenses>
     <developers>
         <developer>
+            <id>tvannoni</id>
             <name>Tommaso Vannoni</name>
             <email>tvannoni@absolute.it</email>
             <organization>Absolute</organization>

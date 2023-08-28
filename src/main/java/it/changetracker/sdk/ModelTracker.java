@@ -47,7 +47,7 @@ public final class ModelTracker {
         return new Table(tableName, Optional.ofNullable(rows).map(list -> list.stream().toList()).orElse(new ArrayList<>()));
     }
 
-    static class ModelMapper<T> {
+    public static class ModelMapper<T> {
         private final T model;
         private final HashMap<String, Function<T, ?>> fields;
         private final HashMap<String, String> fieldFormats;

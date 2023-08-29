@@ -6,7 +6,7 @@
     <groupId>it.changetracker.sdk</groupId>
     <artifactId>changetracker-sdk</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Absolute ChangeTracker SDK</description>
     <url>https://changetracker.it/</url>
@@ -45,18 +45,17 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.13.4</version>
-            <scope>compile</scope>
+            <version>2.15.2</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-            <version>2.15.1</version>
+            <version>2.15.2</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>2.14.2</version>
+            <version>2.15.2</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>

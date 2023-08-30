@@ -65,8 +65,8 @@ public class ChangeTrackerService {
      **/
     public StorageResponse store(String tableName, String userName, String rowDescription, Row prevModel, Row nextModel, String ipAddress) {
         var token = this.duration > 0 ?
-                TokenGenerator.generateToken(this.apiSecretPost, tableName, null, this.duration) :
-                TokenGenerator.generateToken(this.apiSecretPost, tableName, null);
+                TokenGenerator.generateToken(this.apiSecretPost, tableName, this.duration) :
+                TokenGenerator.generateToken(this.apiSecretPost, tableName);
 
         var row = calculator.diff(prevModel, nextModel);
 
